@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Band Page</title>
-</head>
-<body>
+body{
+  background-image: url("LP_Palette.png");
+  background-size: 100%;
 
-</body>
-</html>
+}
