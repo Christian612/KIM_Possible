@@ -19,9 +19,11 @@
 <script>
 	 function initMap() {
 	 	 var place = {lat: 38.898, lng: -77.010}; 
+	 	 var htown = {lat: 42.284, lng = -71.128};
 	 	 var map = new google.maps.Map(document.getElementById("map"), {
 	 	 	zoom: 15,
-	 	 	center: place
+	 	 	center: place, htown
+	 	
 	 	 });
 	 	 var marker = new google.maps.Marker({
 	 	 	 position: place, 
