@@ -17,10 +17,16 @@
 
   // Get a reference to the database service
   var database = firebase.database();
-  database.ref('dchack/tes').set({
+  database.ref('dchack/test').set({
     username: "Marnier"-,
-    email: "test@me.com" ,
+    email: "test@me.com" 
   });
+
+  var postData = {
+    name: username,
+    Email = email
+  };
+  var newPost = firebase.database().ref().push().key;
 
   // // New Script from MPC
   // const preObject = document.getElementById('object');
