@@ -3,6 +3,7 @@ body{
   background-size: 100%;
 
 }
+
 #LogoStar.center
   {
     position:relative;
@@ -190,4 +191,10 @@ nav ul li a {
  
 .hidden {
       display: none;
+}
+#Footer{
+  text-align: center;
+  clear: both;
+  padding: 0px;
+  top: 0; bottom:0; left: 0; right:0;
 }
