@@ -1,12 +1,22 @@
 body{
   background-image: url("LP_Palette.png");
   background-size: 100%;
+<<<<<<< HEAD
 
 }
 <<<<<<< HEAD
 #Team{
 	font-family:times new roman;	
 }
+=======
+}
+#Team{
+	text-align: center;
+}
+
+
+<<<<<<< HEAD
+>>>>>>> 39cc3e71eeb07d3dc1c3720a73d3446d26bf61ce
 =======
 #LogoStar.center
   {
