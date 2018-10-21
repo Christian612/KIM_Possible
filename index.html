@@ -1,6 +1,6 @@
 
 <html>
-
+ 
 
 <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
 <script>
@@ -14,6 +14,20 @@
     messagingSenderId: "38315243600"
   };
   firebase.initializeApp(config);
+
+  // Get a reference to the database service
+  var database = firebase.database();
+  database.ref('dchack/tes').set({
+    username: "Marnier"-,
+    email: "test@me.com" ,
+  });
+
+  // // New Script from MPC
+  // const preObject = document.getElementById('object');
+  // //reference
+  // const dbRefObject = firebase.database().ref().child('object');
+  // //sync data in real time
+  // dbRefObject.on('value', snap => console.log(snap.val()));
 </script>
 
 <head>
